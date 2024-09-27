@@ -6,7 +6,7 @@ from gtts import gTTS
 import tempfile
 import traceback
 
-# Initialize the Groq client with your API key
+# Initialize the Groq client with your api key
 client = Groq(
     api_key=os.environ.get("GROQ_API_KEY"),
 )
